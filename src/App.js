@@ -1,4 +1,8 @@
 import './App.css';
+import Header from '../src/pageSections/Header';
+import Navigation from '../src/pageSelections/Navigation';
+import Main from '../src/pageSelections/Main';
+import Footer from '../src/pageSelections/Footer';
 
 function App() {
   return (
