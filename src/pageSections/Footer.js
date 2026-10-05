@@ -1,5 +1,6 @@
 import React from 'react';
-import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import { MDBFooter, MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
+import Logo from '../Assets/Logo.svg';
 
 export default function Footer() {
   return (
@@ -9,7 +10,7 @@ export default function Footer() {
           <MDBRow className='mt-3'>
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
-                <MDBIcon icon="/Assets/Logo.svg" className="me-3" />
+                <img src={Logo} alt="Little Lemon" className="me-3" />
                 Little Lemon
               </h6>
               <p>
@@ -68,15 +69,13 @@ export default function Footer() {
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Social Media Links</h6>
               <p>
-                <MDBIcon icon="/Assets/Instagram.png" className="me-2" />
                 @littleLemonParty
               </p>
               <p>
-                <MDBIcon icon="/Assets/X.png" className="me-3" />
                 @littleLemonParty
               </p>
               <p>
-                <MDBIcon icon="/Assets/facebook.png" className="me-3" /> Little Lemon Resurant
+                Little Lemon Resurant
               </p>
             </MDBCol>
           </MDBRow>

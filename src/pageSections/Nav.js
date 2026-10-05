@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Logo from '../Assets/Logo.svg';
 
 function Navigation() {
   return (
@@ -9,7 +10,8 @@ function Navigation() {
         <Container>
           <Navbar.Brand href="#home">
             <img
-                src="Assets\Logo.svg"
+                src={Logo}
+                alt="Little Lemon"
                 width="30"
                 height="30"
                 className="d-inline-block align-top"
@@ -30,7 +32,8 @@ function Navigation() {
         <Container>
         <Navbar.Brand href="#home">
             <img
-                src="Assets\Logo.svg"
+                src={Logo}
+                alt="Little Lemon"
                 width="30"
                 height="30"
                 className="d-inline-block align-top"
@@ -52,7 +55,8 @@ function Navigation() {
         <Container>
         <Navbar.Brand href="#home">
             <img
-                src="Assets\Logo.svg"
+                src={Logo}
+                alt="Little Lemon"
                 width="30"
                 height="30"
                 className="d-inline-block align-top"
@@ -72,4 +76,4 @@ function Navigation() {
   );
 }
 
-export default ColorSchemesExample;
+export default Navigation;
